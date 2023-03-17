@@ -11,7 +11,7 @@ gcc -o exeName makeChange.c -lm
 // main() is the entry point to the program
 int main() {
 
-    // Decalre our variables
+    // Decalre variables
     double amount;
     int hundreds, fifties, twenties, tens, fives, ones;
     int quarters, dimes, nickels, pennies;
