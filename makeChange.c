@@ -11,7 +11,7 @@ gcc -o exeName makeChange.c -lm
 
 int main() {
 
-    // decalre our variables
+    //Decalre our variables
     double amount;
     int hundreds, fifties, twenties, tens, fives, ones;
     int quarters, dimes, nickels, pennies;
@@ -19,18 +19,18 @@ int main() {
     printf("\n\n---===|||  MakeChange takehome project for California Eastern Laboratories  |||===---\n");
     printf("Enter an amount in dollars: ");
 
-    //request user input
-    // %lf will print the Double value, the '&' in '&amount' refers to the memory address of the Double.
+    //Request user input
+    //%lf will print the Double value, the '&' in '&amount' refers to the memory address of the Double.
     scanf("%lf", &amount);
 
-    // Convert dollars to an integer and subtract from amount
+    //Convert dollars to an integer and subtract from amount
     int dollars = (int) floor(amount);
     amount -= dollars;
 
-    // Convert remaining amount to cents
+    //Convert remaining amount to cents
     int cents = (int) round(amount * 100);
 
-    // Calculate number of bills and coins
+    //Calculate number of bills and coins
     hundreds = dollars / 100;
     dollars %= 100;
 
@@ -59,7 +59,7 @@ int main() {
 
     pennies = cents;
 
-    // Print out results
+    //Print out results
     printf("Hundreds: %d\n", hundreds);
     printf("Fifties: %d\n", fifties);
     printf("Twenties: %d\n", twenties);
