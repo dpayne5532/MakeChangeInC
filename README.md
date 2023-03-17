@@ -1,6 +1,6 @@
 # MakeChangeInC
 
-This is my takehome project for California Eastern Laboratories in its most basic form.
+This is my takehome project in its most basic form.
 Once compiled, this program will take a double as an input and return change amounts using the highest denomonations of US currency.
 
 My primary challenges in this project were as follows: 
