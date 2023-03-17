@@ -16,7 +16,7 @@ int main() {
     int hundreds, fifties, twenties, tens, fives, ones;
     int quarters, dimes, nickels, pennies;
 
-    printf("\n\n---===|||  MakeChange takehome project for California Eastern Laboratories  |||===---\n");
+    printf("\n---===|||  MakeChange takehome project for CEL  |||===---\n");
     printf("Enter an amount in dollars: ");
 
     //Request user input
@@ -31,9 +31,12 @@ int main() {
     int cents = (int) round(amount * 100);
 
     //Calculate number of bills and coins
+    //Hundreds equals dollars value divided by 100
     hundreds = dollars / 100;
+    //Dollars variable turns itself into the remaineder of dollars/100 using the modulo operator.
     dollars %= 100;
 
+    //Rinse, repeat
     fifties = dollars / 50;
     dollars %= 50;
 
