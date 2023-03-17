@@ -2,7 +2,7 @@
 #include <math.h>
 
 /*
-compile with
+compile with GNU
 gcc -o exeName makeChange.c -lm
 
 -lm is required to use math library functions floor() and round()
@@ -16,7 +16,7 @@ int main() {
     int hundreds, fifties, twenties, tens, fives, ones;
     int quarters, dimes, nickels, pennies;
 
-    printf("\n---===|||  MakeChange takehome project for CEL  |||===---\n");
+    printf("\n---===|||  MakeChange takehome project for CEL by Dan Payne |||===---\n");
     printf("Enter an amount in dollars: ");
 
     //Request user input
@@ -24,6 +24,8 @@ int main() {
     scanf("%lf", &amount);
 
     //Convert dollars to an integer and subtract from amount
+    //floor() rounds but always down
+    //floor(amount) will return a double (int) will typecast that double to int.
     int dollars = (int) floor(amount);
     amount -= dollars;
 
