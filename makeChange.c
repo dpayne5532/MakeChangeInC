@@ -2,11 +2,17 @@
 #include <math.h>
 
 int main() {
+
+    // decalre our variables
     double amount;
     int hundreds, fifties, twenties, tens, fives, ones;
     int quarters, dimes, nickels, pennies;
 
+    printf("\n\n---===|||  MakeChange takehome project for California Eastern Laboratories  |||===---\n");
     printf("Enter an amount in dollars: ");
+
+    //request user input
+    // %lf will print the Double value, the '&' in '&amount' refers to the memory address of the Double.
     scanf("%lf", &amount);
 
     // Convert dollars to an integer and subtract from amount
