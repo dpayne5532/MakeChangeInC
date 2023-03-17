@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <math.h>
 
+/*
+compile with
+gcc -o exeName makeChange.c -lm
+
+-lm is required to use math library functions floor() and round()
+*/
+
+
 int main() {
 
     // decalre our variables
