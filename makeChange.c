@@ -20,12 +20,12 @@ int main() {
     printf("Enter an amount in dollars: ");
 
     // Request user input
-    // %lf will print the Double value, the '&' in '&amount' refers to the memory address of the Double.
+    // %lf represents the Double value, the '&' in '&amount' refers to the memory address of the Double.
     scanf("%lf", &amount);
 
     // Convert dollars to an integer and subtract from amount
     // floor() rounds but always down
-    // floor(amount) will return a double (int) will typecast that double to int.
+    // floor(amount) will return a double - (int) will typecast that double to int.
     int dollars = (int) floor(amount);
     amount -= dollars;
 
