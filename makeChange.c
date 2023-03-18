@@ -35,7 +35,7 @@ int main() {
     // Calculate number of bills and coins
     // Hundreds equals dollars value divided by 100
     hundreds = dollars / 100;
-    // Dollars variable turns itself into the remaineder of dollars/100 using the modulo operator.
+    // Dollars variable turns itself into the remainder of dollars/100 using the modulo operator.
     dollars %= 100;
 
     // Rinse, repeat
