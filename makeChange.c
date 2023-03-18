@@ -6,6 +6,7 @@ compile with GNU
 gcc -o exeName makeChange.c -lm
 
 -lm is required to use math library functions floor() and round()
+
 */
 
 // main() is the entry point to the program
@@ -16,7 +17,7 @@ int main() {
     int hundreds, fifties, twenties, tens, fives, ones;
     int quarters, dimes, nickels, pennies;
 
-    printf("\n---===|||  MakeChange takehome project for CEL by Dan Payne |||===---\n");
+    printf("\n---===|||  MakeChange takehome project for CEL by Dan Payne |||===---\n\n");
     printf("Enter an amount in dollars/cents($xxx.xx): $");
 
     // Request user input
