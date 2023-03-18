@@ -12,12 +12,14 @@ gcc -o exeName makeChange.c -lm
 // main() is the entry point to the program
 int main() {
 
+  // Decalre variables
   double amount;
   int hundreds, fifties, twenties, tens, fives, ones;
   int quarters, dimes, nickels, pennies;
-  // Decalre variables
+
   printf("\n---===|||  MakeChange takehome project for CEL by Dan Payne |||===---\n\n");
   printf("Enter an amount in dollars/cents($xxx.xx): $");
+
   // Request user input
   // %lf represents the Double value, the '&' in '&amount' refers to the memory address of the Double.
   scanf("%lf", &amount);
@@ -94,9 +96,6 @@ int main() {
   if (pennies != 0) {
     printf("Pennies: %d\n", pennies);
   }
-
-
-
   // return 0 just means the program was executed successfully. A return 1 would be unsuccessful.
   return 0;
 }
