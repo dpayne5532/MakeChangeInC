@@ -65,16 +65,37 @@ int main() {
     pennies = cents;
 
     // Print out results
-    printf("Hundreds: %d\n", hundreds);
-    printf("Fifties: %d\n", fifties);
-    printf("Twenties: %d\n", twenties);
-    printf("Tens: %d\n", tens);
-    printf("Fives: %d\n", fives);
-    printf("Ones: %d\n", ones);
-    printf("Quarters: %d\n", quarters);
-    printf("Dimes: %d\n", dimes);
-    printf("Nickels: %d\n", nickels);
-    printf("Pennies: %d\n", pennies);
+    if (hundreds != 0){
+      printf("Hundreds: %d\n", hundreds);
+    }
+    if (fifties != 0) {
+      printf("Fifties: %d\n", fifties);
+    }
+    if (twenties != 0) {
+      printf("Twenties: %d\n", twenties);
+    }
+    if (tens != 0) {
+      printf("Tens: %d\n", tens);
+    }
+    if (fives != 0) {
+      printf("Fives: %d\n", fives);
+    }
+    if (ones != 0) {
+      printf("Ones: %d\n", ones);
+    }
+    if (quarters != 0) {
+      printf("Quarters: %d\n", quarters);
+    }
+    if (dimes != 0) {
+      printf("Dimes: %d\n", dimes);
+    }
+    if (nickels != 0){
+      printf("Nickels: %d\n", nickels);
+    }
+    if (pennies != 0) {
+      printf("Pennies: %d\n", pennies);
+    }
+
 
 
   // return 0 just means the program was executed successfully. A return 1 would be unsuccessful.
