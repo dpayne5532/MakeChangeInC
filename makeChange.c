@@ -17,7 +17,7 @@ int main() {
     int quarters, dimes, nickels, pennies;
 
     printf("\n---===|||  MakeChange takehome project for CEL by Dan Payne |||===---\n");
-    printf("Enter an amount in dollars: ");
+    printf("Enter an amount in dollars/cents($xxx.xx): $");
 
     // Request user input
     // %lf represents the Double value, the '&' in '&amount' refers to the memory address of the Double.
