@@ -12,4 +12,4 @@ My primary challenges in this project were:
 
 -Takeaway
 
-I am finding C to be less forign than I originally expected it to be. Coming from Swift, it's fascinating to see its foundations. For example, when limiting the decimal places shown to the end user, you use "specifier: %.2f" which I so recently learned comes directly from the C language. 
+I am finding C to be less forign than I originally expected it to be. Coming from Swift, it's fascinating to see Swifts foundations. For example, when limiting the decimal places shown to the end user, you use "specifier: %.2f" which I so recently learned comes directly from the C language. 
