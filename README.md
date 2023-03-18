@@ -1,4 +1,4 @@
-# MakeChangeInC
+# Make Change in C
 
 This is my takehome project in its most basic form.
 Once compiled, this program will take a double as an input and return change amounts using the highest denomonations of US currency.
