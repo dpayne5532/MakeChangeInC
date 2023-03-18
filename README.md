@@ -3,7 +3,7 @@
 This is my takehome project in its most basic form.
 Once compiled, this program will take a double as an input and return change amounts using the highest denomonations of US currency.
 
-My primary challenges in this project were as follows: 
+My primary challenges in this project were: 
 
 1: I have very, very little experience with the C language. I started with a 4 hour [YouTube tutorial](https://youtu.be/0Sg6QHmlFJE) on C for beginners to accomplish this. 
 
