@@ -18,11 +18,20 @@ int main() {
   int quarters, dimes, nickels, pennies;
 
   printf("\n---===|||  MakeChange takehome project for CEL by Dan Payne |||===---\n\n");
-  printf("Enter an amount in dollars/cents($xxx.xx): $");
+// use while(1) to create an infinite loop
+  while(1) {
+    printf("Enter an amount in dollars/cents($xxx.xx): $");
 
-  // Request user input
   // %lf represents the Double value, the '&' in '&amount' refers to the memory address of the Double.
-  scanf("%lf", &amount);
+    scanf("%lf", &amount);
+
+  // Check if the input is valid
+    if(amount >= 0 && amount <= 999999) {
+      break;
+    } else {
+        printf("Please enter a number between 0 and 1000000\n");
+    }
+}
 
   // Convert dollars to an integer and subtract from amount
   // floor() rounds but always down
