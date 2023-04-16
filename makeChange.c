@@ -105,6 +105,5 @@ int main() {
   if (pennies != 0) {
     printf("Pennies: %d\n", pennies);
   }
-  // return 0 just means the program was executed successfully. A return 1 would be unsuccessful.
-  return 0;
+
 }
